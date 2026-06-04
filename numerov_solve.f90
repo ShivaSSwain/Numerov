@@ -2,7 +2,7 @@ program numerov_main
 
     implicit none
     real(8), parameter :: etol = 1d-9
-    integer, parameter :: mxprop = 100
+    integer, parameter :: mxprop = 200
     real(8) :: amass, xmin, xmax, dx, enrl, enrh, deltae, energy, anorm
     ! These are arrays with variable size which will be allocated in run time
     real(8), allocatable :: x(:), psi(:), highe, lowe
