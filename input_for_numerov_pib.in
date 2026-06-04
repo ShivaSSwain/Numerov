@@ -1,0 +1,8 @@
+&input
+amass = 16.85762919164018,   ! amu !This mass is bfct which will give energies(cm-1) : 1, 4, 9, 16,... with L = pi
+xmin  = -1.58d0, ! ang
+xmax  = 1.58d0,  ! ang
+dx    = 0.0001d0, ! ang
+enrl  = 0d0,   ! cm-1
+enrh  = 30d0,  ! cm-1
+/

@@ -1,0 +1,8 @@
+&input
+amass = 33.71525838328036,   ! amu !This mass is 2*bfct which will give energies(cm-1) : 0.5, 1.5, 2.5,... with force constant = 1
+xmin  = -20d0, ! ang
+xmax  = 20d0,  ! ang
+dx    = 0.01d0, ! ang
+enrl  = 0d0,   ! cm-1
+enrh  = 1.2d0,  ! cm-1
+/
